@@ -11,20 +11,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
-import { Ejemplo1Component } from './components/autocomplete/ejemplo1/ejemplo1.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { BadgeComponent } from './components/badge/badge.component';
 import {MatBadgeModule} from '@angular/material/badge';
-import { Ejemplo2Component } from './components/autocomplete/ejemplo2/ejemplo2.component';
-import { Ejemplo3Component } from './components/autocomplete/ejemplo3/ejemplo3.component';
 import { Badge1Component } from './components/badge/badge1/badge1.component';
 import { Badge2Component } from './components/badge/badge2/badge2.component';
 import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
-import { Bottom1Component } from './components/bottom-sheet/bottom1/bottom1.component';
-import { Bottom2Component } from './components/bottom-sheet/bottom2/bottom2.component';
 import { ButtonComponent } from './components/button/button.component';
 import { Button1Component } from './components/button/button1/button1.component';
 import { Button2Component } from './components/button/button2/button2.component';
@@ -50,21 +45,37 @@ import { Chk2Component } from './components/checkbox/chk2/chk2.component';
 import { Chk3Component } from './components/checkbox/chk3/chk3.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
+import { ChipsComponent } from './components/chips/chips.component';
+import { Chip1Component } from './components/chips/chip1/chip1.component';
+import { Chip2Component } from './components/chips/chip2/chip2.component';
+import { Chip3Component } from './components/chips/chip3/chip3.component';
+import { Chip4Component } from './components/chips/chip4/chip4.component';
+import { Chip5Component } from './components/chips/chip5/chip5.component';
+import { Chip6Component } from './components/chips/chip6/chip6.component';
+import { Chip7Component } from './components/chips/chip7/chip7.component';
+import {MatChipsModule} from '@angular/material/chips';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { Date1Component } from './components/datepicker/date1/date1.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { Date2Component } from './components/datepicker/date2/date2.component';
+import { DialogComponent } from './components/dialog/dialog.component';
+import { Diag1Component } from './components/dialog/diag1/diag1.component';
+import { Diag2Component } from './components/dialog/diag2/diag2.component';
+import { Diag3Component } from './components/dialog/diag3/diag3.component';
+import { Diag4Component } from './components/dialog/diag4/diag4.component';
+import { Diag5Component } from './components/dialog/diag5/diag5.component';
+import { Diag6Component } from './components/dialog/diag6/diag6.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     AutocompleteComponent,
-    Ejemplo1Component,
     BadgeComponent,
-    Ejemplo2Component,
-    Ejemplo3Component,
     Badge1Component,
     Badge2Component,
     BottomSheetComponent,
-    Bottom1Component,
-    Bottom2Component,
     ButtonComponent,
     Button1Component,
     Button2Component,
@@ -84,7 +95,25 @@ import {MatRadioModule} from '@angular/material/radio';
     CheckboxComponent,
     Chk1Component,
     Chk2Component,
-    Chk3Component
+    Chk3Component,
+    ChipsComponent,
+    Chip1Component,
+    Chip2Component,
+    Chip3Component,
+    Chip4Component,
+    Chip5Component,
+    Chip6Component,
+    Chip7Component,
+    DatepickerComponent,
+    Date1Component,
+    Date2Component,
+    DialogComponent,
+    Diag1Component,
+    Diag2Component,
+    Diag3Component,
+    Diag4Component,
+    Diag5Component,
+    Diag6Component
   ],
   imports: [
     BrowserModule,
@@ -105,7 +134,10 @@ import {MatRadioModule} from '@angular/material/radio';
     MatCardModule,
     MatProgressBarModule,
     MatCheckboxModule,
-    MatRadioModule
+    MatRadioModule,
+    MatChipsModule,
+    DragDropModule,
+    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
