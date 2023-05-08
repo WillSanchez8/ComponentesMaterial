@@ -66,7 +66,25 @@ import { Diag3Component } from './components/dialog/diag3/diag3.component';
 import { Diag4Component } from './components/dialog/diag4/diag4.component';
 import { Diag5Component } from './components/dialog/diag5/diag5.component';
 import { Diag6Component } from './components/dialog/diag6/diag6.component';
-
+import { DividerComponent } from './components/divider/divider.component';
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
+import { Exp1Component } from './components/expansion-panel/exp1/exp1.component';
+import { Exp2Component } from './components/expansion-panel/exp2/exp2.component';
+import { Exp3Component } from './components/expansion-panel/exp3/exp3.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { FormFieldComponent } from './components/form-field/form-field.component';
+import { Form1Component } from './components/form-field/form1/form1.component';
+import { GridListComponent } from './components/grid-list/grid-list.component';
+import { Grid1Component } from './components/grid-list/grid1/grid1.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { Grid2Component } from './components/grid-list/grid2/grid2.component';
+import { IconComponent } from './components/icon/icon.component';
+import { Icon1Component } from './components/icon/icon1/icon1.component';
+import { Icon2Component } from './components/icon/icon2/icon2.component';
+import { InputComponent } from './components/input/input.component';
+import { Input1Component } from './components/input/input1/input1.component';
+import { ListComponent } from './components/list/list.component';
+import { List1Component } from './components/list/list1/list1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -113,7 +131,24 @@ import { Diag6Component } from './components/dialog/diag6/diag6.component';
     Diag3Component,
     Diag4Component,
     Diag5Component,
-    Diag6Component
+    Diag6Component,
+    DividerComponent,
+    ExpansionPanelComponent,
+    Exp1Component,
+    Exp2Component,
+    Exp3Component,
+    FormFieldComponent,
+    Form1Component,
+    GridListComponent,
+    Grid1Component,
+    Grid2Component,
+    IconComponent,
+    Icon1Component,
+    Icon2Component,
+    InputComponent,
+    Input1Component,
+    ListComponent,
+    List1Component
   ],
   imports: [
     BrowserModule,
@@ -137,7 +172,9 @@ import { Diag6Component } from './components/dialog/diag6/diag6.component';
     MatRadioModule,
     MatChipsModule,
     DragDropModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatExpansionModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
