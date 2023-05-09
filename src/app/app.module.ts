@@ -115,7 +115,8 @@ import { Rbtn2Component } from './components/radio-button/rbtn2/rbtn2.component'
 import { RipplesComponent } from './components/ripples/ripples.component';
 import {MatRippleModule} from '@angular/material/core';
 import { SelectComponent } from './components/select/select.component';
-import { Se1Component } from './components/select/se1/se1.component';
+import {MatSelectModule} from '@angular/material/select';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -204,8 +205,7 @@ import { Se1Component } from './components/select/se1/se1.component';
     Rbtn1Component,
     Rbtn2Component,
     RipplesComponent,
-    SelectComponent,
-    Se1Component
+    SelectComponent
   ],
   imports: [
     BrowserModule,
@@ -236,7 +236,9 @@ import { Se1Component } from './components/select/se1/se1.component';
     MatPaginatorModule,
     MatSliderModule,
     MatProgressSpinnerModule,
-    MatRippleModule
+    MatRippleModule,
+    MatSelectModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
