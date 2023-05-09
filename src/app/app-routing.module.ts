@@ -20,6 +20,9 @@ import { ListComponent } from './components/list/list.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { ProgressbarComponent } from './components/progressbar/progressbar.component';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { RipplesComponent } from './components/ripples/ripples.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/",pathMatch: "full"},
@@ -42,7 +45,10 @@ const routes: Routes = [
   { path: "list", component: ListComponent},
   { path: "menu", component: MenuComponent},
   { path: "paginator", component: PaginatorComponent},
-  { path: "progressbar", component: ProgressbarComponent}
+  { path: "progressbar", component: ProgressbarComponent},
+  { path: "progress-spinner", component: ProgressSpinnerComponent},
+  { path: "radio-button", component: RadioButtonComponent},
+  { path: "ripples", component: RipplesComponent}
 ];
 
 @NgModule({

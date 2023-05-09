@@ -105,6 +105,17 @@ import { Pg3Component } from './components/progressbar/pg3/pg3.component';
 import { Pg4Component } from './components/progressbar/pg4/pg4.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { Pg5Component } from './components/progressbar/pg5/pg5.component';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { Pe1Component } from './components/progress-spinner/pe1/pe1.component';
+import { Pe2Component } from './components/progress-spinner/pe2/pe2.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { Rbtn1Component } from './components/radio-button/rbtn1/rbtn1.component';
+import { Rbtn2Component } from './components/radio-button/rbtn2/rbtn2.component';
+import { RipplesComponent } from './components/ripples/ripples.component';
+import {MatRippleModule} from '@angular/material/core';
+import { SelectComponent } from './components/select/select.component';
+import { Se1Component } from './components/select/se1/se1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -185,7 +196,16 @@ import { Pg5Component } from './components/progressbar/pg5/pg5.component';
     Pg2Component,
     Pg3Component,
     Pg4Component,
-    Pg5Component
+    Pg5Component,
+    ProgressSpinnerComponent,
+    Pe1Component,
+    Pe2Component,
+    RadioButtonComponent,
+    Rbtn1Component,
+    Rbtn2Component,
+    RipplesComponent,
+    SelectComponent,
+    Se1Component
   ],
   imports: [
     BrowserModule,
@@ -214,7 +234,9 @@ import { Pg5Component } from './components/progressbar/pg5/pg5.component';
     MatGridListModule,
     MatMenuModule,
     MatPaginatorModule,
-    MatSliderModule
+    MatSliderModule,
+    MatProgressSpinnerModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
