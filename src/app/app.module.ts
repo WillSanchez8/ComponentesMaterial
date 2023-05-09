@@ -107,6 +107,11 @@ import { RadioButtonComponent } from './components/radio-button/radio-button.com
 import { Rb1Component } from './components/radio-button/rb1/rb1.component';
 import {RipplesComponent} from './components/ripples/ripples.component';
 import {MatRippleModule} from '@angular/material/core';
+import { List5Component } from './components/list/list5/list5.component';
+import { Menu2Component } from './components/menu/menu2/menu2.component';
+import { Menu3Component } from './components/menu/menu3/menu3.component';
+import { Menu4Component } from './components/menu/menu4/menu4.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -187,7 +192,11 @@ import {MatRippleModule} from '@angular/material/core';
     Pe2Component,
     RadioButtonComponent,
     Rb1Component,
-    RipplesComponent
+    RipplesComponent,
+    List5Component,
+    Menu2Component,
+    Menu3Component,
+    Menu4Component
   ],
   imports: [
     BrowserModule,
