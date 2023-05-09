@@ -17,6 +17,8 @@ import { GridListComponent } from './components/grid-list/grid-list.component';
 import { IconComponent } from './components/icon/icon.component';
 import { InputComponent } from './components/input/input.component';
 import { ListComponent } from './components/list/list.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/",pathMatch: "full"},
@@ -36,7 +38,9 @@ const routes: Routes = [
   { path: "grid-list", component: GridListComponent},
   { path: "icon", component: IconComponent},
   { path: "input", component: InputComponent},
-  { path: "list", component: ListComponent}
+  { path: "list", component: ListComponent},
+  { path: "menu", component: MenuComponent},
+  { path: "paginator", component: PaginatorComponent}
 ];
 
 @NgModule({

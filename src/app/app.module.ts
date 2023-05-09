@@ -91,6 +91,9 @@ import { List4Component } from './components/list/list4/list4.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { Menu1Component } from './components/menu/menu1/menu1.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { PaginatorComponent } from './components/paginator/paginator.component';
+import { Pag1Component } from './components/paginator/pag1/pag1.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
 @NgModule({
   declarations: [
     AppComponent,
@@ -159,7 +162,9 @@ import {MatMenuModule} from '@angular/material/menu';
     List3Component,
     List4Component,
     MenuComponent,
-    Menu1Component
+    Menu1Component,
+    PaginatorComponent,
+    Pag1Component
   ],
   imports: [
     BrowserModule,
@@ -186,7 +191,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatDatepickerModule,
     MatExpansionModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
