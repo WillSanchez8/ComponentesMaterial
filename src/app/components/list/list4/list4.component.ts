@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./list4.component.css']
 })
 export class List4Component {
-
+  typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
 }

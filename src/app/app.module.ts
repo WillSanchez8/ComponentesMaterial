@@ -94,6 +94,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { List5Component } from './components/list/list5/list5.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -164,7 +165,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MenuComponent,
     Menu1Component,
     PaginatorComponent,
-    Pag1Component
+    Pag1Component,
+    List5Component
   ],
   imports: [
     BrowserModule,
