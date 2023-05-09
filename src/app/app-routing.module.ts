@@ -19,6 +19,7 @@ import { InputComponent } from './components/input/input.component';
 import { ListComponent } from './components/list/list.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { PaginatorComponent } from './components/paginator/paginator.component';
+import { ProgressbarComponent } from './components/progressbar/progressbar.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/",pathMatch: "full"},
@@ -40,7 +41,8 @@ const routes: Routes = [
   { path: "input", component: InputComponent},
   { path: "list", component: ListComponent},
   { path: "menu", component: MenuComponent},
-  { path: "paginator", component: PaginatorComponent}
+  { path: "paginator", component: PaginatorComponent},
+  { path: "progressbar", component: ProgressbarComponent}
 ];
 
 @NgModule({

@@ -98,6 +98,13 @@ import { List5Component } from './components/list/list5/list5.component';
 import { Menu2Component } from './components/menu/menu2/menu2.component';
 import { Menu3Component } from './components/menu/menu3/menu3.component';
 import { Menu4Component } from './components/menu/menu4/menu4.component';
+import { ProgressbarComponent } from './components/progressbar/progressbar.component';
+import { Pg1Component } from './components/progressbar/pg1/pg1.component';
+import { Pg2Component } from './components/progressbar/pg2/pg2.component';
+import { Pg3Component } from './components/progressbar/pg3/pg3.component';
+import { Pg4Component } from './components/progressbar/pg4/pg4.component';
+import { MatSliderModule } from '@angular/material/slider';
+import { Pg5Component } from './components/progressbar/pg5/pg5.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -172,7 +179,13 @@ import { Menu4Component } from './components/menu/menu4/menu4.component';
     List5Component,
     Menu2Component,
     Menu3Component,
-    Menu4Component
+    Menu4Component,
+    ProgressbarComponent,
+    Pg1Component,
+    Pg2Component,
+    Pg3Component,
+    Pg4Component,
+    Pg5Component
   ],
   imports: [
     BrowserModule,
@@ -200,7 +213,8 @@ import { Menu4Component } from './components/menu/menu4/menu4.component';
     MatExpansionModule,
     MatGridListModule,
     MatMenuModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
