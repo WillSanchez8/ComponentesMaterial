@@ -88,6 +88,9 @@ import { List1Component } from './components/list/list1/list1.component';
 import { List2Component } from './components/list/list2/list2.component';
 import { List3Component } from './components/list/list3/list3.component';
 import { List4Component } from './components/list/list4/list4.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { Menu1Component } from './components/menu/menu1/menu1.component';
+import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
@@ -154,7 +157,9 @@ import { List4Component } from './components/list/list4/list4.component';
     List1Component,
     List2Component,
     List3Component,
-    List4Component
+    List4Component,
+    MenuComponent,
+    Menu1Component
   ],
   imports: [
     BrowserModule,
@@ -180,7 +185,8 @@ import { List4Component } from './components/list/list4/list4.component';
     DragDropModule,
     MatDatepickerModule,
     MatExpansionModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
