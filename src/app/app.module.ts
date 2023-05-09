@@ -94,29 +94,6 @@ import {MatMenuModule} from '@angular/material/menu';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { List5Component } from './components/list/list5/list5.component';
-import { Menu2Component } from './components/menu/menu2/menu2.component';
-import { Menu3Component } from './components/menu/menu3/menu3.component';
-import { Menu4Component } from './components/menu/menu4/menu4.component';
-import { ProgressbarComponent } from './components/progressbar/progressbar.component';
-import { Pg1Component } from './components/progressbar/pg1/pg1.component';
-import { Pg2Component } from './components/progressbar/pg2/pg2.component';
-import { Pg3Component } from './components/progressbar/pg3/pg3.component';
-import { Pg4Component } from './components/progressbar/pg4/pg4.component';
-import { MatSliderModule } from '@angular/material/slider';
-import { Pg5Component } from './components/progressbar/pg5/pg5.component';
-import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
-import { Pe1Component } from './components/progress-spinner/pe1/pe1.component';
-import { Pe2Component } from './components/progress-spinner/pe2/pe2.component';
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-import { RadioButtonComponent } from './components/radio-button/radio-button.component';
-import { Rbtn1Component } from './components/radio-button/rbtn1/rbtn1.component';
-import { Rbtn2Component } from './components/radio-button/rbtn2/rbtn2.component';
-import { RipplesComponent } from './components/ripples/ripples.component';
-import {MatRippleModule} from '@angular/material/core';
-import { SelectComponent } from './components/select/select.component';
-import {MatSelectModule} from '@angular/material/select';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -187,25 +164,7 @@ import {MatSelectModule} from '@angular/material/select';
     MenuComponent,
     Menu1Component,
     PaginatorComponent,
-    Pag1Component,
-    List5Component,
-    Menu2Component,
-    Menu3Component,
-    Menu4Component,
-    ProgressbarComponent,
-    Pg1Component,
-    Pg2Component,
-    Pg3Component,
-    Pg4Component,
-    Pg5Component,
-    ProgressSpinnerComponent,
-    Pe1Component,
-    Pe2Component,
-    RadioButtonComponent,
-    Rbtn1Component,
-    Rbtn2Component,
-    RipplesComponent,
-    SelectComponent
+    Pag1Component
   ],
   imports: [
     BrowserModule,
@@ -233,12 +192,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatExpansionModule,
     MatGridListModule,
     MatMenuModule,
-    MatPaginatorModule,
-    MatSliderModule,
-    MatProgressSpinnerModule,
-    MatRippleModule,
-    MatSelectModule,
-    
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
