@@ -95,6 +95,9 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { List5Component } from './components/list/list5/list5.component';
+import { Menu2Component } from './components/menu/menu2/menu2.component';
+import { Menu3Component } from './components/menu/menu3/menu3.component';
+import { Menu4Component } from './components/menu/menu4/menu4.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -166,7 +169,10 @@ import { List5Component } from './components/list/list5/list5.component';
     Menu1Component,
     PaginatorComponent,
     Pag1Component,
-    List5Component
+    List5Component,
+    Menu2Component,
+    Menu3Component,
+    Menu4Component
   ],
   imports: [
     BrowserModule,
