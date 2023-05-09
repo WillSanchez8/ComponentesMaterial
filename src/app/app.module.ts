@@ -94,7 +94,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { MatProgressSpinner } from '@angular/material/progress-spinner';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -165,7 +166,8 @@ import { MatProgressSpinner } from '@angular/material/progress-spinner';
     MenuComponent,
     Menu1Component,
     PaginatorComponent,
-    Pag1Component
+    Pag1Component,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
