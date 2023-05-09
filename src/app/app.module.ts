@@ -94,6 +94,16 @@ import {MatMenuModule} from '@angular/material/menu';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { Prog1Component } from './components/progress-bar/prog1/prog1.component';
+import { Prog2Component } from './components/progress-bar/prog2/prog2.component';
+import { Prog3Component } from './components/progress-bar/prog3/prog3.component';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { Progs1Component } from './components/progress-spinner/progs1/progs1.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { Rb1Component } from './components/radio-button/rb1/rb1.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -164,7 +174,16 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MenuComponent,
     Menu1Component,
     PaginatorComponent,
-    Pag1Component
+    Pag1Component,
+    ProgressBarComponent,
+    Prog1Component,
+    Prog2Component,
+    Prog3Component,
+    ProgressSpinnerComponent,
+    Progs1Component,
+    RadioButtonComponent,
+    Rb1Component
+    
   ],
   imports: [
     BrowserModule,
@@ -192,7 +211,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatExpansionModule,
     MatGridListModule,
     MatMenuModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
