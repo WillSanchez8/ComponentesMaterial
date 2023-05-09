@@ -95,7 +95,18 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 import { Pag1Component } from './components/paginator/pag1/pag1.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
-
+import { Prog1Component } from './components/progress-bar/prog1/prog1.component';
+import { Prog2Component } from './components/progress-bar/prog2/prog2.component';
+import { Prog3Component } from './components/progress-bar/prog3/prog3.component';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { Pe1Component } from './components/progress-spinner/pe1/pe1.component';
+import { Pe2Component } from './components/progress-spinner/pe2/pe2.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatSliderModule} from '@angular/material/slider';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { Rb1Component } from './components/radio-button/rb1/rb1.component';
+import {RipplesComponent} from './components/ripples/ripples.component';
+import {MatRippleModule} from '@angular/material/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -167,7 +178,16 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     Menu1Component,
     PaginatorComponent,
     Pag1Component,
-    ProgressBarComponent
+    ProgressBarComponent,
+    Prog1Component,
+    Prog2Component,
+    Prog3Component,
+    ProgressSpinnerComponent,
+    Pe1Component,
+    Pe2Component,
+    RadioButtonComponent,
+    Rb1Component,
+    RipplesComponent
   ],
   imports: [
     BrowserModule,
@@ -195,7 +215,10 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     MatExpansionModule,
     MatGridListModule,
     MatMenuModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSliderModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
